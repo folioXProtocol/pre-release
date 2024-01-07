@@ -16,7 +16,7 @@ const SignUpForm = ({ status, message, onValidated }) => {
 	if (status === "success") {
 		return (
 			<>
-				<p className="text-success-600 dark:text-success-500 font-semibold mt-5">
+				<p className="text-success-600 font-semibold mt-5">
 					Congratulations! 🎉
 					<br />
 					You've just unlocked a VIP pass to exclusive updates.
