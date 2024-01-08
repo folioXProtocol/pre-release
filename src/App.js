@@ -1,7 +1,7 @@
 import CoverArt from "./assets/cover-art.png";
 import LogoLight from "./assets/logo-light.png";
 import LogoDark from "./assets/logo-dark.png";
-import Litepaper from "./folioX_Litepaper.pdf";
+import Litepaper from "./folioX_litepaper.pdf";
 
 import { PiSunDimFill, PiMoonFill } from "react-icons/pi";
 
