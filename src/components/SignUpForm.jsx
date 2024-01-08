@@ -57,7 +57,7 @@ const SignUpForm = ({ status, message, onValidated }) => {
 			<input
 				type="submit"
 				disabled={!email}
-				label={status === "sending" ? <Loader /> : "Sign Up"}
+				value={status === "sending" ? <Loader /> : "Sign Up"}
 				className="bg-primary-500 text-light-100 text-sm font-bold rounded py-2 md:px-4 focus:outline-none hover:brightness-110 active:brightness-90 w-full md:w-3/12 disabled:cursor-not-allowed disabled:opacity-70"
 			/>
 		</form>
