@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/pre-release/static/css/main.5f84943d.css",
+    "main.js": "/pre-release/static/js/main.4676330e.js",
+    "static/media/folioX_litepaper.pdf": "/pre-release/static/media/folioX_litepaper.890899046e968225f97f.pdf",
+    "static/media/cover-art.png": "/pre-release/static/media/cover-art.6019d6c31f6eae131f46.png",
+    "static/media/logo-light.png": "/pre-release/static/media/logo-light.6dddcbd69902f5b3ee76.png",
+    "static/media/logo-dark.png": "/pre-release/static/media/logo-dark.653136d1357dfd9acfee.png",
+    "index.html": "/pre-release/index.html",
+    "main.5f84943d.css.map": "/pre-release/static/css/main.5f84943d.css.map",
+    "main.4676330e.js.map": "/pre-release/static/js/main.4676330e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f84943d.css",
+    "static/js/main.4676330e.js"
+  ]
+}
