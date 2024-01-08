@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 	content: ["./src/**/*.{js,jsx,ts,tsx}"],
-	darkMode: 'class',
+	darkMode: "class",
 	theme: {
 		colors: {
 			primary: {
@@ -52,7 +52,12 @@ module.exports = {
 				900: "#300303",
 			},
 		},
-		extend: {},
+		extend: {
+			backgroundImage: {
+				dark: "url('./assets/grid-dark.png')",
+				light: "url('./assets/grid-dark.png)",
+			}
+		},
 	},
 	plugins: [],
 };
