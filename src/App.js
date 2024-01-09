@@ -30,8 +30,7 @@ function App() {
 	}
 
 	return (
-		<div
-			className="relative flex flex-col w-full min-h-[100vh] bg-[url('./assets/grid-light.png')] dark:bg-[url('./assets/grid-dark.png')]">
+		<div className="relative flex flex-col w-full min-h-[100vh] bg-[url('./assets/grid-light.png')] dark:bg-[url('./assets/grid-dark.png')]">
 			<button
 				className="absolute right-5 top-5 md:top-9 md:right-9 p-2 bg-dark-500 text-light-100 rounded dark:bg-light-100 dark:text-dark-500 z-10"
 				onClick={toggleDarkMode}>
@@ -55,7 +54,7 @@ function App() {
 							</span>{" "}
 							Portfolio Management
 						</h1>
-						<p className="text-xl font-medium mb-5">
+						<p className="text-lg md:text-xl font-medium mb-5">
 							folioX, Your One-Stop Portfolio Powerhouse.
 						</p>
 						<a
@@ -67,7 +66,7 @@ function App() {
 						</a>
 					</div>
 				</div>
-				<div className="text-center mt-5 text-xl">
+				<div className="text-center mt-10 md:mt-5 text-lg md:text-xl">
 					Build Wealth effortlessly with our
 					<br />
 					<span className="font-semibold"> Autonomous Intent Framework</span>—
@@ -75,8 +74,8 @@ function App() {
 						No bridge or protocol worries, we curate the best for you!
 					</p>
 				</div>
-				<div className="m-auto w-fit md:mt-[5em] mt-10 text-center">
-					<span className="text-2xl font-semibold">
+				<div className="m-auto w-fit md:mt-[5em] mt-[3rem] text-center">
+					<span className="text-xl md:text-2xl font-semibold">
 						Sign Up for{" "}
 						<span className="text-primary-500 dark:text-primary-400">
 							Early access
