@@ -33,7 +33,7 @@ function App() {
 		<div
 			className="relative flex flex-col w-full min-h-[100vh] bg-[url('./assets/grid-light.png')] dark:bg-[url('./assets/grid-dark.png')]">
 			<button
-				className="absolute right-5 top-5 md:top-9 md:right-9 p-2 bg-dark-500 text-light-100 rounded dark:bg-light-100 dark:text-dark-500"
+				className="absolute right-5 top-5 md:top-9 md:right-9 p-2 bg-dark-500 text-light-100 rounded dark:bg-light-100 dark:text-dark-500 z-10"
 				onClick={toggleDarkMode}>
 				{isDark ? <PiSunDimFill /> : <PiMoonFill />}
 			</button>
