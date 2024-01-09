@@ -7,7 +7,7 @@ import {
 
 const Footer = () => {
 	return (
-		<div className="bg-primary-600 w-[100vw] flex flex-col justify-center items-center p-5 mt-10">
+		<div className="bg-primary-600 dark:bg-primary-500 w-[100vw] flex flex-col justify-center items-center p-5 mt-10">
 			<div className="italic text-light-100 hover:text-primary-100 active:text-primary-200">
 				<a href="mailto:contact@foliox.io">contact@foliox.io</a>
 			</div>
